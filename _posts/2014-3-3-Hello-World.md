@@ -1,10 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: Cooking With Neural Networks
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Welcome to my blog! I'll be posting a variety of things, ranging from tutorials on neural nets and other ML techniques; interesting projects I'm working on and my own personal thoughts on the current state of A.I. and its many benefits, caveats, limitations and dangers. 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+I hope you enjoy!
