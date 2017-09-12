@@ -9,9 +9,10 @@ Hi! I'm Tim. I hold an MSc in Artificial Intelligence and I am a huge fan of the
 
 ### More Information
 
-Soon<sup>TM</sup>
+Soon <sup>TM</sup>
 
 ### Contact me
 
 [tschmoog@gmail.com](mailto:email@domain.com)
+
 Other platforms are at the bottom
