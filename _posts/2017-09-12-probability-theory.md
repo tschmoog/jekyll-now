@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Probability Theory
 
@@ -7,4 +7,3 @@ Where to start? The intention of this blog is to smooth out the the niggles of m
 
 Ingredients:
 A fair grasp of linear algebra and calculus
-
