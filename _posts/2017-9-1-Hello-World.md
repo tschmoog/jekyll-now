@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cooking With Neural Networks
+title: Cooking With Neural Nets
 published: true
 ---
 
