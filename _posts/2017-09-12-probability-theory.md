@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Probably the best starting point
 
@@ -53,5 +53,3 @@ Lots of latex below:::::::::::::
 Sum rule:
 
 Product rule:
-
-
