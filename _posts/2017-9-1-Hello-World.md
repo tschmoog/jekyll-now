@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cooking With Neural Nets
+title: Cooking with Neural Nets
 published: true
 ---
 $$a^2 + b^2 = c^2$$
