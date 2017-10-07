@@ -10,7 +10,7 @@ A decent grasp of linear algebra and calculus.
 
 ### Why do we need probability theory?
 
-All data is obtained through observation and measurement. This means noise will bleed in to the data, be it through the data not being entirely accurate or representative of a population, potenitally due to bias or an insufficient quanitiy, or through the instruments by which measurements are made having a degree of uncertainty or error. Because of this, data is useful to discover __trends__, however it is good to assume there is a degree of inaccuracy or variability within the data, which hopefully can be accounted for when the data is looked at in aggregate. Probability theory gives us the framework to express this uncertainty in a precise and quantitative manner.
+All data is obtained through observation and measurement. This means noise will bleed in to the data, be it through the data not being entirely accurate or representative of a population, potenitally due to bias or an insufficient quanitiy, or through the instruments by which measurements are made having a degree of uncertainty or error. Because of this, data is useful to discover _trends_, however it is good to assume there is a degree of inaccuracy or variability within the data, which hopefully can be accounted for when the data is looked at in aggregate. Probability theory gives us the framework to express this uncertainty in a precise and quantitative manner.
 
 ### A simple example:
 
