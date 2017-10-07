@@ -18,7 +18,7 @@ Imagine two bags,filled with black and white marbles.  Bag 1 contains 10 marbles
 
 *diagram*
 
-Let us remove marbles from each bag, inspect their colour and return them to the bag they were taken from. We inspect items from bag 1 20% of the time and bag 2 80% of the time. In this instance the bag which we choose to take a marble from is a variable *B*. *B* can take one of two values, bag 1 or 2. The marble removed is also a variable that can take on two values, we can denote the marble varialbe as *M* and it's resulting colour black (*b*) or white (*w*). 
+Let us remove marbles from each bag, inspect their colour and return them to the bag they were taken from. We inspect items from bag 1 20% of the time and bag 2 80% of the time. In this instance the bag which we choose to take a marble from is a variable $$B$$. *B* can take one of two values, bag 1 or 2. The marble removed is also a variable that can take on two values, we can denote the marble varialbe as *M* and it's resulting colour black (*b*) or white (*w*). 
 
 We can measure a probability as the number of times an event occurs out of the number of trials. Assuming we pick bags and marbles an infinite number of times, we can see that the probability of picking bag 1 is 1/5 and bag 2 is 4/5. We can write this mathematically as:
 
