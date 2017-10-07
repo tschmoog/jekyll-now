@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Probably the best starting point
 
@@ -42,7 +42,7 @@ Finally, let the number of trials where X = xi (irresepctive of the Y value) be 
 
 The probability of X = xi and Y = yi can be mathematically denoted as: 
 
-(latex) 
+$$p\left ( X = x_{i},Y = y_{j} \right )$$
 
 This is the joint probabiliy, and is the probability of two (or more) events occuring. As earlier, this probability is the likleyhood of both events occuring simeltaneously out of the total number of trials. 
 
