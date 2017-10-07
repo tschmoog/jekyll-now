@@ -22,9 +22,9 @@ Let us remove marbles from each bag, inspect their colour and return them to the
 
 We can measure a probability as the number of times an event occurs out of the number of trials. Assuming we pick bags and marbles an infinite number of times, we can see that the probability of picking bag 1 is 1/5 and bag 2 is 4/5. We can write this mathematically as:
 
-p(B=bag1) = 1/5 = 0.2 
+$$p(B=bag1) = 1/5 = 0.2$$
 
-p(B=bag2) = 4/5 = 0.8
+$$p(B=bag2) = 4/5 = 0.8$$
 
 Given this information we can now ask questions and make inferences foward such as:
 
