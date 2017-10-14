@@ -50,6 +50,6 @@ This is the joint probabiliy, and is the probability of two (or more) events occ
 Lots of latex below::::::::::::: 
 
 
-Sum rule:
+Sum rule: $$p(X)= \sum_{Y}^{ } p(X,Y)$$
 
-Product rule:
+Product rule: $$p(X,Y)= p(Y|X)p(X)$$
