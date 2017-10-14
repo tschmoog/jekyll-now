@@ -46,10 +46,17 @@ $$p\left ( X = x_{i},Y = y_{j} \right )$$
 
 This is the joint probabiliy, and is the probability of two (or more) events occuring. As earlier, this probability is the likleyhood of both events occuring simeltaneously out of the total number of trials. 
 
-
-Lots of latex below::::::::::::: 
+Till this point we have been quite explicit about the values with which variables $$X$$ and $$Y$$ can take, however this was for the sake of explanation. For brevity and with apropiate context we can afford to be less pendandic and denote the sum and product rules as: 
 
 
 Sum rule: $$p(X)= \sum_{Y}^{ } p(X,Y)$$
 
 Product rule: $$p(X,Y)= p(Y|X)p(X)$$
+
+These two rules form the basis for a lot of probabilitstic work in machine learning. 
+
+## Bayes' Theorem 
+
+Using the symmetry $$p(X,Y) = p(Y,X)$$ and the produc rule above, we can deduce the following relationship between probabilities which is known as _Bayes theorm_ 
+
+
