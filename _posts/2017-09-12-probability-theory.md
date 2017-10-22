@@ -1,9 +1,7 @@
 ---
 published: true
 ---
-## Probably the best starting point
-
-Where to start? The intention of this blog is to smooth out the the niggles of machine learning and make it as acessible to those with limited technical and mathematical experience or ability. That being said, the field of ML/AI was birthed through a combination of engineering, computer science and statistics and so one must understand the fundamentals before moving on to understand the more attractive and exiciting ideas. Because of this, I feel probability theory (alongside decision theory and information theory) is as good a place to start as any. 
+This is _probabily_ the best place to start. The intention of this blog is to smooth out the the niggles of machine learning and make it as acessible to those with limited technical and mathematical experience or ability. That being said, the field of ML/AI was birthed through a combination of engineering, computer science and statistics and so one must understand the fundamentals before moving on to understand the more attractive and exiciting ideas. Because of this, I feel probability theory (alongside decision theory and information theory) is as good a place to start as any. 
 
 Ingredients:
 A decent grasp of linear algebra and calculus.
@@ -105,4 +103,4 @@ $$ = \frac{0.6* 0.2}{0.78\dot{6}} = 0.15 $$ to 2 decimal places.
 
 Perhaps unsurprisingly given a black marble we can see that there is a 15% probability of it coming from bag 1 and a 85% probability of it coming from bag 2. While this does __not__ tell us which bag the marble _actually_ came from, it gives us an estimate and the best choice to take should we have to guess which bag it came from, allowing us to make decisions or take actions based on uncertain information. 
 
-This is a simple first step into probability, which will be expanded on in future posts. 
+This is a simple first step into probability, which will be expanded on in future posts.
