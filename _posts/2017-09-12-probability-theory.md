@@ -103,6 +103,6 @@ $$p(B=bag1|M=w) = \frac{p(M=w|B=bag1)p(B=bag1)}{p(M=w)}$$
 
 $$ = \frac{0.6* 0.2}{0.78\dot{6}} = 0.15 $$ to 2 decimal places. 
 
-Perhaps unsurprisingly given a black marble we can see that there is a 15% probability of it coming from bag 1 and a 85% probability of it coming from bag 2. While this does __not__ tell us which bag the marble _actually_ came from, it gives us an estimate and the best choice to take should we have to guess which back it came from, allowing us to make decisions or take actions based on uncertain information. 
+Perhaps unsurprisingly given a black marble we can see that there is a 15% probability of it coming from bag 1 and a 85% probability of it coming from bag 2. While this does __not__ tell us which bag the marble _actually_ came from, it gives us an estimate and the best choice to take should we have to guess which bag it came from, allowing us to make decisions or take actions based on uncertain information. 
 
 This is a simple first step into probability, which will be expanded on in future posts. 
