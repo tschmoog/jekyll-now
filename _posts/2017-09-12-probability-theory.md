@@ -57,6 +57,47 @@ These two rules form the basis for a lot of probabilitstic work in machine learn
 
 ## Bayes' Theorem 
 
-Using the symmetry $$p(X,Y) = p(Y,X)$$ and the produc rule above, we can deduce the following relationship between probabilities which is known as _Bayes theorm_ 
+Using the symmetry $$p(X,Y) = p(Y,X)$$ and the produc rule above, we can deduce the following relationship between probabilities which is known as _Bayes theorm_ which plays a large role in machine learning. 
 
+$$p(Y|X) = \frac{p(X|Y)p(Y)}{p(X)}$$
 
+Using the sum rule, we can expand the denominator and express it in terms of the numerator as:
+
+$$p(X) = \sum_{Y}^{ }p(X|Y)p(Y)$$
+
+This denominator is useful as is ensures that all our probability values over the range of $$Y$$ sum to 1. 
+
+Returning to our original example of marbles and bags we can now express the problem mathematically as follows:
+
+The probability of selecting either bag as mentioned earlier:
+
+$$p(B=bag1) = 1/5 = 0.2$$
+
+$$p(B=bag2) = 4/5 = 0.8$$
+
+And the probabilities of selecting a specific colour marble, given a bag are:
+
+$$p(M = b|B=bag1) = 4/10 = 0.4$$
+
+$$p(M = w|B=bag1) = 6/10 = 0.6$$
+
+$$p(M = b|B=bag2) = 5/6 = 0.8\dot{3} $$
+
+$$p(M = w|B=bag2) = 1/6 = 0.1\dot{6}$$
+
+We can use the earlier derived rules to then evaluate the total probability of say, ending up with a white marble
+
+$$p(M = w) = p(M=w|B=bag1)p(B=bag1) + p(M=w|B=bag2)p(B=bag2)$$
+
+$$ = 0.4 * 0.2  + 0.1\dot{6} * 0.8 = 0.21\dot{3} $$
+
+from here we can conclude the probability of a black marble $$= 1-0.21\dot{3} = 0.78\dot{6}$$
+
+More interestingly, we can infer information, say we are given a black marble and we would like to work out what bag it came from, Bayes’ theorem can be used to work out the probability of a specific bag, starting with bag 1:
+
+$$p(B=bag1|M=w) = \frac{p(M=w|B=bag1)p(B=bag1)}{p(M=w)}$$
+
+$$ = \frac{0.6* 0.2}{0.78\dot{6}} = 0.15 $$ to 2 decimal places. 
+ Perhaps unsurprisingly given a black marble we can see that there is a 15% probability of it coming from bag 1 and a 85% probability of it coming from bag 2. While this does __not__ tell us which bag the marble _actually_ came from, it gives us an estimate and the best choice to take should we have to guess which back it came from, allowing us to make decisions or take actions based on uncertain information. 
+
+This is a simple first step into probability, which will be expanded on in future posts. 
